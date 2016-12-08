@@ -4,7 +4,7 @@ error_reporting(E_ALL); ini_set('display_errors', 1);
 GetFiles('/dog');
 function GetFiles($a){
   $headers = [
-      'Authorization: Bearer iUYi3JacHKsAAAAAAABYEsfX7sB2cgSxFWA813LgTWBeHYeR-83avDJskX-RIdfG',
+      'Authorization: Bearer ',//Place Key In Here
       'Content-Type: application/json'
   ];
   $fields = array(
